@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Responsive Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        main {
+            margin: 15px;
+        }
+        @media screen and (max-width: 600px) {
+            nav ul li {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>This is the first section of my simple responsive website.</p>
+        </section>
+        
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>This is the second section of my simple responsive website.</p>
+        </section>
+        
+        <section id="section3">
+            <h2>Section 3</h2>
+            <p>This is the third section of my simple responsive website.</p>
+        </section>
+    </main>
+</body>
+</html>
